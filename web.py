@@ -88,7 +88,7 @@ else:  # 자전거 보관소
     icon_type = {'icon': 'lock', 'color': 'red'}
     show_name = False
 # 병원 추가
-elif option == '종합 병원':  
+else option == '종합 병원':  
     selected_data = hospital_data  # 병원 데이터를 사용
     icon_type = {'icon': 'hospital', 'color': 'purple'}  # 병원 아이콘 설정
     show_name = True
